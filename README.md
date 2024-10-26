@@ -1,12 +1,13 @@
 # Nicolas Cage App 🎬
-A data-driven interface that presents fun and insightful facts about Nicolas Cage's filmography. This app was built with Streamlit, and showcases Nicolas Cage's unique contributions to cinema through data visualizations. 
+This is a data-driven interface that presents fun and insightful facts about Nicolas Cage's filmography. This app is hosted with Streamlit, and showcases Nicolas Cage's unique contributions to cinema through data visualizations. 
 
 ## App Features
 
+Here are some of the features the app provides:
 - **Top Movies**: View the highest-rated Nicolas Cage films with key details.
 - **Rating Distribution**: Visualize how Cage's movies perform across rating categories.
 - **Genre Diversity**: Explore the genres in which Cage made his mark.
-- **Career Timeline**: See the number of movie releases over time.
+- **Career Timeline**: See the number of movies Cage has acted in over time.
 
 ## Dataset
 
@@ -15,9 +16,8 @@ The dataset, `imdb-movies-dataset.csv`, contains detailed information about vari
 
 ## Try It Out
 
-The app is hosted on Streamlit Cloud. Check it out at this URL:<br>
+The app is hosted on Streamlit Cloud. You can view the application at this URL:<br>
 **[Nicolas Cage Filmography App](https://nicolas-cage-app-fmfqdycgm4grtfmz533aba.streamlit.app/)**  
-*Note: You’ll need to upload a local copy of the dataset for the app to run.*
 
 Alternatively, you can run the app locally:
 
