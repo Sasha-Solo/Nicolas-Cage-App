@@ -35,16 +35,17 @@ Alternatively, you can run the app locally:
     ```bash
     python -m venv .venv
     ```
-    <strong>Activate</strong>:
+
+3. **Activate Virtual Environment**<br>
     - Windows: `.venv\Scripts\activate`  
     - MacOS/Linux: `source .venv/bin/activate`
 
-3. **Install Required Libraries**<br>
+4. **Install Required Libraries**<br>
     ```bash
     pip install -r requirements.txt
     ```
 
-4. **Run the App**<br>
+5. **Run the App**<br>
     ```bash
     streamlit run app.py
     ```
