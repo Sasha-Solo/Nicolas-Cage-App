@@ -12,7 +12,7 @@ df_cage = df[df['Cast'].str.contains('Nicolas Cage', case=False, na=False)].copy
 
 #Introduction to the app
 st.header("\U0001F3AC Welcome to the World of Nicolas Cage!")
-st.write("Join us on a cinematic journey as we explore the fascinating filmography of Nicolas Cage—an actor known for his *quirky choices* and *remarkable performances*! From **blockbuster hits** to *cult classics*, there's much to discover!")
+st.write("Join us on a cinematic journey as we explore the fascinating filmography of Nicolas Cage—an actor known for his quirky choices and remarkable performances! From *blockbuster hits* to *cult classics*, there's much to discover!")
 
 st.write("---")
 
@@ -35,7 +35,7 @@ for index, row in top_movies.iterrows():
 
 #Diving into the statistics
 st.header("📈Nic By The Numbers: Let's Take a Look at The Stats")
-st.write("In this section, we’ll dive into some data of Nicolas Cage movies, giving you a glimpse of how they fare across different categories.")
+st.write("In this section, we’ll dive into some data-driven insights, giving you a glimpse of how Nicolas Cage's movies fare across different categories.")
 
 st.write("---")
 
@@ -63,7 +63,7 @@ st.pyplot(plt)
 
 #Explain insights about the bar chart
 st.write("### Insights:")
-st.write("A significant number of his films fall into the **5-6** and **6-7 range**, indicating a trend towards average reception. This suggests that while Cage has some memorable performances, many of his choices may not resonate well with critics.")
+st.write("A significant number of his films fall into the **5-6** and **6-7 range**, where 10 is the highest rating possible. This indicates a trend towards average reception. This suggests that while Cage has some memorable performances, many of his choices may not resonate well with critics.")
 st.write("On the flip side, several films in the **7-8 range** show that Cage has won over many viewers. Do you think these ratings reflect the quality of the films?")
 
 #Looking at film genres:
@@ -84,7 +84,7 @@ st.pyplot(plt)
 
 #Explain insights
 st.write("### Insights:")
-st.write("It's clear that Cage has made a significant mark in **action**, **drama,** and **thriller** genres, which allow his unique acting style to shine. However, there are notably many comedy and crime movies, suggesting that he may prefer diverse roles.")
+st.write("It's clear that Cage has made a significant mark in **action**, **drama,** and **thriller** genres, which allow his unique acting style to shine. However, there are notably many comedy and crime movies, suggesting that he may enjoy playing roles in diverse genres.")
 st.write("Cage's films often blend genres, which illustrates his versatility as an actor and leads to unique storytelling experiences.")
 st.write("As you look at this genre distribution, consider this: What's your favorite genre that Cage has worked in?")
 
@@ -108,8 +108,8 @@ st.pyplot(plt)
 
 #Explain insights
 st.write("### Insights:")
-st.write("It’s clear from the graph that **2014** was a monumental year for Nicolas Cage, featuring the highest number of movie releases in his career. This could reflect a phase where Cage was particularly active in the film industry.")
-st.write("The chart also shows a noticeable dip in movie releases from 1970 to around 1990. This might indicate a sabbatical or a shift in the types of projects Cage was pursuing during that time.")
+st.write("It’s clear from the graph that **2014** was a monumental year for Nicolas Cage, featuring the highest number of movie releases (8) in his career This reflects a phase where Cage was particularly active in the film industry.")
+st.write("The chart also shows a noticeable dip in movie releases from around 1970 to 1990. This might indicate a sabbatical or a shift in the types of projects Cage was pursuing during that time.")
 
 st.write("---")
 

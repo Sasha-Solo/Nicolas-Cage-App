@@ -1,5 +1,5 @@
 # Nicolas Cage App 🎬
-This is a data-driven interface that presents fun and insightful facts about Nicolas Cage's filmography. This app is hosted with Streamlit, and showcases Nicolas Cage's unique contributions to cinema through data visualizations. 
+This is a data-driven interface that presents fun and insightful facts about Nicolas Cage's filmography. This app is written in Python, and is hosted with Streamlit. It showcases Nicolas Cage's unique contributions to cinema through data visualizations. 
 
 ## App Features
 
